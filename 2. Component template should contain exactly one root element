@@ -1,0 +1,5 @@
+Component template should contain exactly one root element
+
+写评价时遇到的错误，解决方案，在template标签内加div
+参考：
+https://www.cnblogs.com/liziyou/p/6708537.html
