@@ -1,0 +1,4 @@
+v-ref: dom
+
+this.$refs.dom
+
