@@ -1,0 +1,15 @@
+vm.$emit( event, […args] )
+
+父组件是使用 props 传递数据给子组件，但如果子组件要把数据传递回去，应该怎样做？那就是自定义事件！
+
+每个 Vue 实例都实现了事件接口(Events interface)，即：
+
+使用 $on(eventName) 监听事件
+使用 $emit(eventName)触发事件
+
+参考：
+1.
+https://segmentfault.com/q/1010000007688303
+
+2.
+http://www.jianshu.com/p/2e29f6e8800b
