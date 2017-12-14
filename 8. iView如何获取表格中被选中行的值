@@ -1,0 +1,10 @@
+html:
+<Table highlight-row ref="currentRowTable" :columns="columns3" :data="data1" @on-current-change="handleRowChange"></Table>
+//必须要有highlight-row，handleRowChange是自己定义的方法
+
+methods:{
+    handleRowChange(currentRow, oldCurrentRow){
+        //console.log(currentRow)
+        //console.log(oldCurrentRow)
+    }
+}
