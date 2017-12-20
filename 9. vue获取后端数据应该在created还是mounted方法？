@@ -1,0 +1,3 @@
+看情况了，一般放到created里面就可以了，这样可以及早发请求获取数据，如果有依赖dom必须存在的情况，就放到mounted(){this.$nextTick(() => { /* code */ })}里面
+
+放在mounted 因为有时候要结合ref操作
